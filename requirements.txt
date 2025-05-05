@@ -6,4 +6,5 @@ datasets
 tqdm
 nltk
 pycocoevalcap
+hf_xet
 git+https://github.com/wkcn/TinyCLIP.git
