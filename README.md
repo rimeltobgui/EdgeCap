@@ -82,10 +82,11 @@ edgecap/
 
 ## 🙏 Acknowledgements
 
-This project leverages the following open-source contributions:
+This project builds upon the open-source work of:
 
-* [OpenCLIP](https://github.com/mlfoundations/open_clip) for CLIP and TinyCLIP models
-* [Hugging Face Transformers](https://huggingface.co/docs/transformers/index) for `distilgpt2`
+- [TinyCLIP (wkcn)](https://github.com/wkcn/TinyCLIP)
+- [OpenCLIP (MLFoundations)](https://github.com/mlfoundations/open_clip)
+- [HuggingFace Transformers](https://github.com/huggingface/transformers)
 * [PyTorch](https://pytorch.org/) for model implementation and deployment
 * [Flickr30k Dataset](https://huggingface.co/datasets/nlphuji/flickr30k) for evaluation
 * [pycocoevalcap](https://github.com/tylin/coco-caption) for evaluation metrics
