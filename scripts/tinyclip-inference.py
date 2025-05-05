@@ -72,7 +72,7 @@ class TinyCLIPCaptioner:
         # Tokenize the candidate texts
         text_tokens = self.tokenizer(self.candidate_prompts).to(self.device)
 
-        with torch.no_grad(), torch.cuda.amp.autocast():
+        with torch.no_grad():
             # Compute features
             image_features = self.model.encode_image(image_tensor)
             text_features = self.model.encode_text(text_tokens)
