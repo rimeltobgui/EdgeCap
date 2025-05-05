@@ -8,7 +8,6 @@ import time
 from torchvision import transforms
 import open_clip
 
-from tqdm import tqdm
 import torchvision.transforms.functional as TF
 import matplotlib.pyplot as plt
 import nltk
