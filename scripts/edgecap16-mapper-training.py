@@ -229,7 +229,6 @@ def generate_captions(model, dataloader, tokenizer, device):
 
 optimizer = AdamW(model.mapper.parameters(), lr=1e-4)
 model.gpt2.eval()  # freeze
-model.clip_model.eval()  # freeze
 model.mapper.train() # train mapper
 
 for epoch in range(1):  # train for 1 small epoch
