@@ -42,24 +42,12 @@ Evaluated on [Flickr30k](https://huggingface.co/datasets/nlphuji/flickr30k) usin
 - **Libraries:** PyTorch, OpenCLIP, HuggingFace Transformers
 - **Camera Support:** USB / Pi camera module
 - **Input Options:** Live camera feed or local image files
-
+  
 ---
 
-## 📂 Project Structure
+## 📓 Notebook Version
 
-```bash
-edgecap/
-├── model/
-│   ├── tinyclip_gpt2.py        # MLP mapper + TinyCLIP + distilgpt2
-│   └── fullclip_gpt2.py        # ViT-B/32 + distilgpt2
-├── scripts/
-│   ├── run_inference.py        # Generate captions
-│   ├── evaluate_metrics.py     # BLEU, METEOR, CIDEr
-│   └── capture_camera.py       # Capture via Pi camera
-├── data/
-│   └── flickr_subset.json
-└── README.md
-```
+Check out ![full_project_notebook.ipynb](full_project_notebook.ipynb) for an interactive demonstration in Google Colab.
 
 ---
 
@@ -69,6 +57,15 @@ edgecap/
 | ----------------------- | ------------------------------------ |
 | ![soccer](test_images/soccer.jpg) | "two soccer players in a soccer uniform, one wearing a red shirt and the other wearing a white shirt"          |
 | ![dog](test_images/dog.jpg)    | "a golden retriever is holding a toy in his mouth" |
+
+---
+
+## 🛠️ Setup
+```bash
+# Clone the EdgeCap repository and install dependencies
+git clone https://github.com/rimeltobgui/EdgeCap.git && cd EdgeCap
+pip install -r requirements.txt
+```
 
 ---
 
