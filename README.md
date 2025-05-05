@@ -45,9 +45,27 @@ Evaluated on [Flickr30k](https://huggingface.co/datasets/nlphuji/flickr30k) usin
   
 ---
 
+## 🔧 Project Structure
+
+```markdown
+📦 EdgeCap
+├── scripts/                # Inference, training, and validation scripts
+│   ├── edgecap16-*.py      # TinyCLIP (39M) + DistilGPT2 variant
+│   ├── edgecap32-*.py      # ViT-B/32 + DistilGPT2 variant
+│   ├── tinyclip-*.py       # TinyCLIP (39M) inference
+│   └── blip-*.py           # BLIP baseline and quantization scripts
+├── test_images/            # Example images for evaluation
+├── weights/                # Pretrained mapper weights
+├── full_project_notebook.ipynb
+├── requirements.txt
+└── README.md
+```
+
+---
+
 ## 📓 Notebook Version
 
-Check out ![full_project_notebook.ipynb](full_project_notebook.ipynb) for an interactive demonstration in Google Colab.
+Check out [full_project_notebook.ipynb](full_project_notebook.ipynb) for an interactive demonstration in Google Colab.
 
 ---
 
