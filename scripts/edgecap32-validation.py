@@ -78,9 +78,10 @@ clip_model.eval()
 tokenizer = GPT2Tokenizer.from_pretrained("distilgpt2")
 gpt2 = GPT2LMHeadModel.from_pretrained("distilgpt2")
 gpt2.eval()
+gpt2 = gpt2.to(device)
 
 # === Assemble full model ===
-model = TinyCLIPCap(clip_model, gpt2)
+model = TinyCLIPCap(clip_model, gpt2).to(device)
 
 # === Setup tokenizer pad token ===
 tokenizer.pad_token = tokenizer.eos_token
