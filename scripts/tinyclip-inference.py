@@ -138,7 +138,7 @@ for i, (path, refs) in enumerate(zip(image_paths, reference_captions)):
     image = Image.open(path).convert("RGB")
 
     start_time = time.time()
-    caption = model.generate_caption(img)
+    caption = tinyclip_model.generate_caption(image)
     end_time = time.time()
 
     inference_time = end_time - start_time
