@@ -27,7 +27,6 @@ model = BlipForConditionalGeneration.from_pretrained(
     quantization_config=quantization_config,
     torch_dtype="auto"  # Or specify like torch.float16 if needed
 )
-model.to(device)
 
 # === Metric scoring functions ===
 cc = SmoothingFunction()
