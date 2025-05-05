@@ -189,7 +189,6 @@ for i, (path, refs) in enumerate(zip(image_paths, reference_captions)):
     meteor = compute_meteor(caption, refs)
     bleu = compute_bleu(caption, refs)
 
-    display(image)
     print(f"\n===== Image {i+1} =====")
     print(f"Generated Caption: {caption}")
     print(f"Reference Captions: {refs}")
