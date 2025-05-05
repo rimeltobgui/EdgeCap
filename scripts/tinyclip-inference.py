@@ -1,16 +1,9 @@
 # === Import required libraries ===
 import torch
-import torch.nn as nn
-from transformers import GPT2Tokenizer, GPT2LMHeadModel
 from PIL import Image
 
 import time
-from torchvision import transforms
 import open_clip
-
-from tqdm import tqdm
-import torchvision.transforms.functional as TF
-import matplotlib.pyplot as plt
 import nltk
 
 from nltk.translate.bleu_score import sentence_bleu, SmoothingFunction
