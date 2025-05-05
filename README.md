@@ -67,7 +67,7 @@ edgecap/
 
 | Image                   | Caption                              |
 | ----------------------- | ------------------------------------ |
-| ![soccer](test_imnages/soccer.jpg) | "Soccer players on a field"          |
+| ![soccer](test_images/soccer.jpg) | "Soccer players on a field"          |
 | ![dog](test_images/dog.jpg)    | "A golden retriever chewing a treat" |
 
 ---
