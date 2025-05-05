@@ -3,6 +3,8 @@ import torch
 import torch.nn as nn
 from transformers import GPT2Tokenizer, GPT2LMHeadModel
 from PIL import Image
+from IPython.display import display
+
 import time
 from torchvision import transforms
 import open_clip
