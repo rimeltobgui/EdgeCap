@@ -148,7 +148,7 @@ def compute_meteor(pred, refs):
 image_paths = [
     "test_images/soccer.jpg",
     "test_images/dog.jpg",
-    "test_images/classroom.jpg"
+    "test_images/classroom.png"
 ]
 
 reference_captions = [
