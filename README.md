@@ -97,9 +97,9 @@ pip install -r requirements.txt
 
 ## Authors
 
-Esraa Fahmy¹, Rim ElTobgui  
-100062654, 100063155  
-
+Esraa Fahmy 100062654@ku.ac.ae, 
+Rim ElTobgui 100063155@ku.ac.ae  
+Khalifa University
 ---
 
 ## 🙏 Acknowledgements
