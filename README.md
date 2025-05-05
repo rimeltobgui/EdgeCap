@@ -67,8 +67,8 @@ edgecap/
 
 | Image                   | Caption                              |
 | ----------------------- | ------------------------------------ |
-| ![soccer](test_images/soccer.jpg) | "Soccer players on a field"          |
-| ![dog](test_images/dog.jpg)    | "A golden retriever chewing a treat" |
+| ![soccer](test_images/soccer.jpg) | "two soccer players in a soccer uniform, one wearing a red shirt and the other wearing a white shirt"          |
+| ![dog](test_images/dog.jpg)    | "a golden retriever is holding a toy in his mouth" |
 
 ---
 
