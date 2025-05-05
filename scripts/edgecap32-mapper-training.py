@@ -212,7 +212,7 @@ model.gpt2.eval()  # freeze
 model.clip_model.eval()  # freeze
 model.mapper.train() # train mapper
 
-for epoch in range(5):  # train for 5 small epochs
+for epoch in range(1):  # train for 1 small epoch
     total_loss = 0
     for images, captions, masks in train_loader:
         images, captions, masks = images.to(device), captions.to(device), masks.to(device)
@@ -244,7 +244,7 @@ for epoch in range(5):  # train for 5 small epochs
             masks
         ], dim=1)
 
-        # align labels with gpt2_input
+        # ✅ Add this step here: align labels with gpt2_input
         prefix_len = prefix_embed.shape[1]
         labels = torch.cat([
             torch.full((captions.shape[0], prefix_len), -100, dtype=torch.long, device=device),  # ignore prefix
