@@ -12,7 +12,7 @@ from pycocoevalcap.meteor.meteor import Meteor
 from pycocoevalcap.tokenizer.ptbtokenizer import PTBTokenizer
 
 # === Set device for inference ===
-device = torch.device("cuda")
+device = torch.device("cpu")
 
 # === Load and Quantize BLIP model ===
 
