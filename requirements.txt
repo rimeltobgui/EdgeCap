@@ -1,6 +1,8 @@
 torch>=1.13
 torchvision
 transformers
+accelerate
+bitsandbytes
 timm
 Pillow
 datasets
