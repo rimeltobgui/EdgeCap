@@ -86,7 +86,7 @@ image_transform = transforms.Compose([
 ])
 
 # === Load trained weights for the MLP mapper ===
-model.mapper.load_state_dict(torch.load("weights/edgecap32-mapper_trained_25epochs.pth", map_location=device, weights_only=False))
+model.mapper.load_state_dict(torch.load("weights/edgecap32-mapper_trained_25epochs.pth", map_location=device))
 
 
 # === Generate caption using beam search and transformer decoding ===
