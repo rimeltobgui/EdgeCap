@@ -1,0 +1,9 @@
+torch>=1.13
+torchvision
+transformers
+Pillow
+datasets
+tqdm
+nltk
+pycocoevalcap
+git+https://github.com/wkcn/TinyCLIP.git
