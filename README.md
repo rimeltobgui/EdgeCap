@@ -8,11 +8,11 @@
 
 ## 🚀 Key Features
 
-- ✅ Runs on Raspberry Pi 4B with Ubuntu
-- 🧠 Vision-Language architecture: CLIP or TinyCLIP + Distilled GPT-2
-- 🔍 Supports both **full-size** and **lightweight (TinyCLIP)** CLIP backbones
-- 📸 Works with the Raspberry Pi camera module
-- ⚡ Real-time inference possible with TinyCLIP on edge hardware
+- Runs on Raspberry Pi 4B with Ubuntu
+- Vision-Language architecture: CLIP or TinyCLIP + Distilled GPT-2
+- Supports both **full-size** and **lightweight (TinyCLIP)** CLIP backbones
+- Works with the Raspberry Pi camera module
+- Real-time inference possible with TinyCLIP on edge hardware
 
 ---
 
