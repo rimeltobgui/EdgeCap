@@ -68,7 +68,7 @@ class TinyCLIPCap(nn.Module):
         return self.mapper(image_embedding)
 
 # === Set device for inference ===
-device = "cpu"
+device = torch.device("cuda")
 
 # === Load TinyCLIP-ViT-39M-16 model ===
 class TinyCLIPCaptioner:
