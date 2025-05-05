@@ -9,7 +9,7 @@ from torchvision import transforms
 import open_clip
 
 import nltk
-
+nltk.download('punkt')
 from nltk.translate.bleu_score import sentence_bleu, SmoothingFunction
 from pycocoevalcap.cider.cider import Cider
 from pycocoevalcap.meteor.meteor import Meteor
