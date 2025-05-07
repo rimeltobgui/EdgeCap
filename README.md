@@ -49,6 +49,12 @@ Evaluated on [Flickr30k](https://huggingface.co/datasets/nlphuji/flickr30k) usin
 
 ```markdown
 📦 EdgeCap
+├── rpi_scripts/            # Raspberry Pi 4 Inference scripts: sample images + live camera images
+│   ├── edgecap16-*.py      # TinyCLIP (39M) + DistilGPT2 variant
+│   ├── edgecap32-*.py      # ViT-B/32 + DistilGPT2 variant
+│   ├── tinyclip-*.py       # TinyCLIP (39M) inference
+│   ├── blip-*.py           # BLIP baseline inference
+│   └── cameratest.py       # Testing camera functionality
 ├── scripts/                # Inference, training, and validation scripts
 │   ├── edgecap16-*.py      # TinyCLIP (39M) + DistilGPT2 variant
 │   ├── edgecap32-*.py      # ViT-B/32 + DistilGPT2 variant
